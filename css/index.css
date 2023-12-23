@@ -82,7 +82,7 @@ ul li a:hover{
         height: 5vh;
         background-color: transparent;
         z-index: 2;
-        position: none;
+        position: absolute;
     }
 
     .logo-name a,.navegater ul li a{
@@ -100,7 +100,7 @@ ul li a:hover{
 
     .menu-bar{
         margin-left: 30px;
-        margin-top: 10px;
+        margin-top: 30px;
         position: none;
     }
 
@@ -110,6 +110,7 @@ ul li a:hover{
         width: 100%;
         position: none;
     }
+
 }
 
 #home{
@@ -234,7 +235,7 @@ h2{
 
 .image:hover img{
     transform: scale(1.5);
-    transition: .5s;
+    transition: .2s;
 }
 
 .gallary-imge  img{
@@ -371,7 +372,7 @@ h5{
 
 h3{
     position: relative;
-    top: 30px;
+    top: 23px;
 }
 
 .learn-box{
