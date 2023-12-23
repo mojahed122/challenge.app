@@ -417,7 +417,6 @@ h6{
 
 .image-of-speakers{
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
     height: 100vh;
@@ -443,7 +442,10 @@ h6{
 @media (max-width:768px){
     .image-of-speakers{
         display: flex;
-        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
     }
 
     .image-of-speakers img{
