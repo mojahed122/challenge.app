@@ -70,7 +70,49 @@ ul li a:hover{
 
     .navegater ul li{
         display: block;
-        margin-left: 30px;
+        /* position: relative;
+        top: 100px; */
+        background-color: #3f51b5;
+        width: 100%;
+        float: right;
+        text-align: center;
+        font-size: 30px;
+        position: relative;
+    }
+
+
+    .navegater ul{
+        position: absolute;
+        top: 100px;
+        width: 100%;
+        left: -800px;
+    }
+
+    .navegater ul.active{
+        left: 0px;
+        transition: all .5s ease-in-out;
+    }
+
+    .header .logo-name a{
+        display: none;
+    }
+
+.navegater ul li a{
+    font-size: 25px;
+    }
+
+    .header{
+        justify-content: flex-start;
+        height: 5vh;
+        background-color: transparent;
+        z-index: 2;
+        position: absolute;
+    }
+
+    /* .navegater ul li{
+        display: block;
+        margin-left: -80px;
+        margin-top: 1px;
     }
 
     .header .logo-name a{
@@ -91,12 +133,18 @@ ul li a:hover{
         left: 150px;
         font-size: 25px;
         height: 9dvh;
-        display: none;
-    }
+    } */
 
-    ul li{
+    
+/* .navegater ul li{
+    display: block;
+    background-color: red;
+} */
+
+    /* ul li{
         margin-top: 10px;
-    }
+        background-color: red;
+    } */
 
     .menu-bar{
         margin-left: 30px;
@@ -428,7 +476,7 @@ h6{
     position: relative;
 }
 
-.images{
+/* .images{
     overflow: hidden;
     position: relative;
     cursor: pointer;
@@ -437,12 +485,12 @@ h6{
 .images:hover img{
     transform: scale(1.4) rotate(5deg);
     transition: 0.9s;
-}
+} */
 
 @media (max-width:768px){
     .image-of-speakers{
-        display: flex;
-        align-items: center;
+        /* display: flex;
+        align-items: center; */
         justify-content: center;
         flex-direction: column;
         gap: 10px;
@@ -451,7 +499,7 @@ h6{
     .image-of-speakers img{
         width: 300px;
         height: 200px;
-        position: relative;
+        /* position: relative; */
     }
 
     h6{
