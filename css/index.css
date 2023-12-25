@@ -148,8 +148,8 @@ ul li a:hover{
     } */
 
     .menu-bar{
-        margin-left: 30px;
-        margin-top: 30px;
+        margin-left: 25px;
+        margin-top: 40px;
         position: none;
     }
 
@@ -284,10 +284,10 @@ h2{
 
 .image:hover img{
     transform: scale(1.5);
-    transition: .2s;
+    transition: .4s;
 }
 
-.gallary-imge  img{
+.gallary-imge img{
     cursor: pointer;
     max-width: 100%;
 }
@@ -467,8 +467,10 @@ h6{
 .image-of-speakers{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
     height: 100vh;
+    margin-top: 60px;
 }
 
 .image-of-speakers img{
@@ -477,24 +479,24 @@ h6{
     position: relative;
 }
 
-/* .images{
-    overflow: hidden;
+.images{
     position: relative;
-    cursor: pointer;
+    overflow: hidden;
 }
 
 .images:hover img{
-    transform: scale(1.4) rotate(5deg);
+    transform: scale(1.2) rotate(5deg);
     transition: 0.9s;
-} */
+}
 
 @media (max-width:768px){
     .image-of-speakers{
-        /* display: flex;
-        align-items: center; */
+        display: flex;
+        align-items: center;
         justify-content: center;
-        flex-direction: column;
-        gap: 10px;
+        flex-wrap: 50%;
+        /* flex-direction: column; */
+        /* gap: 10px; */
     }
 
     .image-of-speakers img{
