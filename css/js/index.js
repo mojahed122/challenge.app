@@ -1,4 +1,4 @@
-const menuBar = document.querySelector(".menu-bar");
+const menuBar = document.querySelector(".menu-bar i");
 const navegater = document.querySelector(".navegater ul");
 
 menuBar.addEventListener("click", () => {
