@@ -78,7 +78,7 @@ ul li a:hover{
         text-align: center;
         font-size: 30px;
         position: relative;
-        z-index: 999;
+        z-index: 3;
     }
 
 
@@ -89,7 +89,7 @@ ul li a:hover{
         left: -800px;
     }
 
-    .navegater ul.active{
+    ul.active{
         left: 0px;
         transition: all .5s ease-in-out;
     }

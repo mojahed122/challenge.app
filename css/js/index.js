@@ -1,9 +1,9 @@
 const menuBar = document.querySelector(".menu-bar i");
-const navegater = document.querySelector(".navegater ul");
+const naveGater = document.querySelector("ul");
 
 menuBar.addEventListener("click", () => {
     menuBar.classList.toggle("active");
-    navegater.classList.toggle("active");
+    naveGater.classList.toggle("active");
 })
 
 
